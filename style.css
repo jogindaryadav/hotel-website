@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    gap: 40vw;
+    background-image: linear-gradient(to right, rgb(14, 33, 40), rgba(223, 131, 19, 0.885));
+}
+.logo{
+    padding-left: 3px;
+    border-radius: 50%;
+}
+.navbar ul{
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    width: 40%;
+}
+.downloadbtn{
+    color: white;
+    background-image: linear-gradient(to right, rgb(14, 33, 40), rgba(223, 131, 19, 0.885));
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+.downloadbtn:hover{
+    cursor: pointer; 
+    transform: scale(1.2); 
+}
+.list{
+    background-color: white;
+    height: 2px;
+    width: 20px;
+    margin-right: 10px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+.hamburger{
+    display:flex;
+    flex-direction:column;
+    cursor:pointer;
+    gap: 3px;
+}
+.top-hero{
+    background-image: url(./public/image/bg.jpeg);
+    background-size: cover; 
+    width: 100%;
+    height: 80vh;
+    color: white;
+    justify-content: center;
+    margin: 2px;
+}
+.top-text1{
+    text-align: center;
+    justify-content: center;
+    padding-top: 15vh;
+}
+.top-text2{
+    text-align: center;
+}
+.top-hero p {
+    text-align: center;
+    padding: 0px 20vi;
+}
+/* second-hero */
+.second-hero{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+}
+.second-hero-left{
+    background-image: url("https://images.pexels.com/photos/13408595/pexels-photo-13408595.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    margin: 2px;
+}
+.second-hero-right{
+    background-image: url("https://images.pexels.com/photos/7501118/pexels-photo-7501118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    margin: 2px;
+}
+.input-form{
+    text-align: center;
+}
+.input-type{
+    margin-top: 5px;
+    padding: 9px 12px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+}
+/* .input-type:hover{
+    color: white;
+    background-color: aqua; */
+
+.Search-button{
+    margin-top: 5px;
+    padding: 8px 10px;
+    color: white;
+    background-image: linear-gradient(to left, rgb(10, 10, 78), rgb(22, 212, 123));
+    border-radius: 5px;
+}
+.bottom-hero{
+    display: flex;
+    flex-direction: row;
+    width: 100%;  
+}
+.bottom-hero-left{
+    background-image: url(https://images.pexels.com/photos/19119224/pexels-photo-19119224/free-photo-of-huts-on-an-island.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    margin: 2px;
+    text-align: center;
+}
+.bottom-hero-mid{
+    background-image: url(https://images.pexels.com/photos/219692/pexels-photo-219692.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    margin: 2px;
+    align-items: center;
+}
+.bottom-hero-right{
+    background-image: url(https://images.pexels.com/photos/16907849/pexels-photo-16907849/free-photo-of-aerial-view-of-dubrovnik-and-the-sea-at-sunset.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    margin: 2px;
+    align-items: center;
+}
+.bottom-text1{
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.bottom-text2{
+    text-align: center;
+     color: white;
+}
+.second-hero-text1{
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.second-hero-text2{
+    text-align: center;
+    color: white;
+}
+.paragraph{
+    color: white;
+    text-align: center;
+}
+.star{
+    padding-top: 10vh;
+     color: orange;
+     text-align: center;
+}
+.star-bottom{
+    padding-top: 10vh;
+    color: orange;
+    text-align: center;
+}
+.non{
+    color: white;
+}
+.line-left{
+    width: 8.5vw;
+    height: 4px;
+    background-color: white;
+    border: none;
+    margin-left: 20.5vw;
+}
+.line-right{
+    width: 19vw;
+    height: 4px;
+    background-color: white;
+    border: none;
+    margin-left: 15vw;
+}
+.bottom-line{
+    width: 10vw;
+    height: 4px;
+    background-color: white;
+    border: none;
+    margin-left: 11.5vw;
+}
